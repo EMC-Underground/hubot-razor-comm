@@ -22,7 +22,7 @@
 
 module.exports = (robot) ->
   robot.respond /display razor nodes/, (res) ->
-    res.reply "hello!"
+    res.reply "Displaying razor nodes!"
 
   robot.respond /display razor brokers/, (res) ->
     res.reply "hello!"
